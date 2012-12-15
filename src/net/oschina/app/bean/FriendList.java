@@ -20,6 +20,7 @@ import android.util.Xml;
  * @version 1.0
  * @created 2012-3-21
  */
+@SuppressWarnings("all")
 public class FriendList extends Entity{
 
 	public final static int TYPE_FANS = 0x00;

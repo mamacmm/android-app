@@ -17,6 +17,7 @@ import android.util.Xml;
  * @version 1.0
  * @created 2012-3-21
  */
+@SuppressWarnings("all")
 public class Blog extends Entity {
 
 	public final static int DOC_TYPE_REPASTE = 0;//转帖

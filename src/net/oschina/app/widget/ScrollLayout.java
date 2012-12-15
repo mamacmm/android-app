@@ -2,7 +2,6 @@ package net.oschina.app.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.VelocityTracker;
 import android.view.View;
@@ -15,6 +14,7 @@ import android.widget.Scroller;
  * @author Yao.GUET date: 2011-05-04
  * @modify liux (http://my.oschina.net/liux)
  */
+@SuppressWarnings("all")
 public class ScrollLayout extends ViewGroup {
 	private static final String TAG = "ScrollLayout";
 	private Scroller mScroller;

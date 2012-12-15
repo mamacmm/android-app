@@ -94,7 +94,7 @@ import android.webkit.CookieSyncManager;
  * 
  * @author ZhangJie (zhangjie2@staff.sina.com.cn)
  */
-
+@SuppressWarnings("all")
 public class Utility {
 
     private static WeiboParameters mRequestHeader = new WeiboParameters();

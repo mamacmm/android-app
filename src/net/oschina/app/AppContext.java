@@ -63,6 +63,7 @@ import android.webkit.CacheManager;
  * @version 1.0
  * @created 2012-3-21
  */
+@SuppressWarnings("all")
 public class AppContext extends Application {
 	
 	public static final int NETTYPE_WIFI = 0x01;

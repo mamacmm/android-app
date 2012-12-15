@@ -8,6 +8,7 @@ import java.io.Serializable;
  * @version 1.0
  * @created 2012-3-21
  */
+@SuppressWarnings("all")
 public abstract class Base implements Serializable {
 
 	public final static String UTF8 = "UTF-8";

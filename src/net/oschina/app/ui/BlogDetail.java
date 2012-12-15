@@ -51,6 +51,7 @@ import android.widget.ViewSwitcher;
  * @version 1.0
  * @created 2012-3-21
  */
+@SuppressWarnings("all")
 public class BlogDetail extends BaseActivity {
 	
 	private FrameLayout mHeader;

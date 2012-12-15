@@ -36,6 +36,7 @@ import android.webkit.CookieSyncManager;
  * 
  * @author ZhangJie (zhangjie2@staff.sina.com.cn)
  */
+@SuppressWarnings("all")
 public class Weibo {
 
     // public static String SERVER = "http://api.t.sina.com.cn/";

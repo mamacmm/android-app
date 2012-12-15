@@ -19,11 +19,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import net.oschina.app.R;
-
 import android.content.Context;
-import android.graphics.Color;
 import android.graphics.Rect;
-import android.graphics.drawable.ColorDrawable;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -42,6 +39,7 @@ import android.widget.PopupWindow;
  * @author Benjamin Fellous
  * @author Cyril Mottier
  */
+@SuppressWarnings("all")
 public abstract class QuickActionWidget extends PopupWindow {
 
     private static final int MEASURE_AND_LAYOUT_DONE = 1 << 1;
@@ -90,7 +88,7 @@ public abstract class QuickActionWidget extends PopupWindow {
      * 
      * @param context The context in which the QuickActionWidget is running in
      */
-    public QuickActionWidget(Context context) {
+	public QuickActionWidget(Context context) {
         super(context);
 
         mContext = context;

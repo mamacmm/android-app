@@ -18,6 +18,7 @@ import android.util.Xml;
  * @version 1.0
  * @created 2012-3-21
  */
+@SuppressWarnings("all")
 public class Active extends Entity {
 
 	public final static int CATALOG_OTHER = 0;//其他

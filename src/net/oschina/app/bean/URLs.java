@@ -13,6 +13,7 @@ import net.oschina.app.common.StringUtils;
  * @version 1.0
  * @created 2012-3-21
  */
+@SuppressWarnings("all")
 public class URLs implements Serializable {
 	
 	public final static String HOST = "www.oschina.net";//192.168.1.213  www.oschina.net

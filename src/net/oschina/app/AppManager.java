@@ -12,6 +12,7 @@ import android.content.Context;
  * @version 1.0
  * @created 2012-3-21
  */
+@SuppressWarnings("all")
 public class AppManager {
 	
 	private static Stack<Activity> activityStack;

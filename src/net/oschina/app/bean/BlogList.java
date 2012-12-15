@@ -19,6 +19,7 @@ import android.util.Xml;
  * @version 1.0
  * @created 2012-3-21
  */
+@SuppressWarnings("all")
 public class BlogList extends Entity{
 	
 	public static final int CATALOG_USER = 1;//用户博客

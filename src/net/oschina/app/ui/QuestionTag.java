@@ -30,6 +30,7 @@ import android.widget.TextView;
  * @version 1.0
  * @created 2012-8-27
  */
+@SuppressWarnings("all")
 public class QuestionTag extends BaseActivity{
 	
 	private ImageView mHome;

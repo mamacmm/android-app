@@ -19,6 +19,7 @@ import android.util.Xml;
  * @version 1.0
  * @created 2012-3-21
  */
+@SuppressWarnings("all")
 public class Post extends Entity{
 
 	public final static String NODE_ID = "id";

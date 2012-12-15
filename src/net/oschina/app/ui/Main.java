@@ -71,6 +71,7 @@ import android.widget.TextView;
  * @version 1.0
  * @created 2012-3-21
  */
+@SuppressWarnings("all")
 public class Main extends BaseActivity {
 
     public static final int QUICKACTION_LOGIN_OR_LOGOUT = 0;

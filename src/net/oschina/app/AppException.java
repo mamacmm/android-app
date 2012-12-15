@@ -26,6 +26,7 @@ import android.widget.Toast;
  * @version 1.0
  * @created 2012-3-21
  */
+@SuppressWarnings("all")
 public class AppException extends Exception implements UncaughtExceptionHandler{
 
 	private final static boolean Debug = false;//是否保存错误日志

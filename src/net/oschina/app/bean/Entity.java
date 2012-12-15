@@ -8,6 +8,7 @@ import java.text.SimpleDateFormat;
  * @version 1.0
  * @created 2012-3-21
  */
+@SuppressWarnings("all")
 public abstract class Entity extends Base {
 
 	public final static SimpleDateFormat SDF_IN = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");

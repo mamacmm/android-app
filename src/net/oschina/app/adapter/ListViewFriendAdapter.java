@@ -22,6 +22,7 @@ import android.widget.TextView;
  * @version 1.0
  * @created 2012-5-24
  */
+@SuppressWarnings("all")
 public class ListViewFriendAdapter extends BaseAdapter {
 	private Context 					context;//运行上下文
 	private List<Friend> 				listItems;//数据集合

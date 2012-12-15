@@ -20,6 +20,7 @@ import android.util.Xml;
  * @version 1.0
  * @created 2012-3-21
  */
+@SuppressWarnings("all")
 public class UserInformation extends Entity{
 	
 	private int pageSize;

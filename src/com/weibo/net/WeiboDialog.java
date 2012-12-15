@@ -8,6 +8,7 @@ import java.net.Proxy;
 import java.net.SocketAddress;
 import java.net.URL;
 
+import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -32,6 +33,7 @@ import android.widget.RelativeLayout;
 
 import net.oschina.app.R;
 
+@SuppressWarnings("all")
 public class WeiboDialog extends Dialog {
 
     static final FrameLayout.LayoutParams FILL = new FrameLayout.LayoutParams(
@@ -180,7 +182,8 @@ public class WeiboDialog extends Dialog {
             mWebView.setVisibility(View.VISIBLE);
         }
 
-        public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
+        @SuppressLint("NewApi")
+		public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
             handler.proceed();
         }
 

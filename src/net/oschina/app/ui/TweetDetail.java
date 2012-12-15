@@ -48,6 +48,7 @@ import android.widget.ViewSwitcher;
  * @version 1.0
  * @created 2012-3-21
  */
+@SuppressWarnings("all")
 public class TweetDetail extends BaseActivity {
 	
 	private ImageView mBack;

@@ -17,6 +17,7 @@ import android.util.Xml;
  * @version 1.0
  * @created 2012-3-21
  */
+@SuppressWarnings("all")
 public class User extends Base {
 	
 	public final static int	RELATION_ACTION_DELETE = 0x00;//取消关注

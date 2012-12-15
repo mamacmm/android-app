@@ -20,6 +20,7 @@ import android.util.Xml;
  * @version 1.0
  * @created 2012-3-21
  */
+@SuppressWarnings("all")
 public class FavoriteList extends Entity{
 	
 	public final static int TYPE_ALL = 0x00;

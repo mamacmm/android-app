@@ -23,6 +23,7 @@ import android.widget.TextView;
  * @version 1.0
  * @created 2012-3-21
  */
+@SuppressWarnings("all")
 public class PullToRefreshListView extends ListView implements OnScrollListener {  
 	   
     private final static String TAG = "PullToRefreshListView";  

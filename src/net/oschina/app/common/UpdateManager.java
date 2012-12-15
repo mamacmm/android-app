@@ -42,6 +42,7 @@ import android.widget.Toast;
  * @version 1.1
  * @created 2012-6-29
  */
+@SuppressWarnings("all")
 public class UpdateManager {
 
 	private static final int DOWN_NOSDCARD = 0;

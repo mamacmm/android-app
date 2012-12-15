@@ -60,6 +60,7 @@ import android.graphics.BitmapFactory;
  * @version 1.0
  * @created 2012-3-21
  */
+@SuppressWarnings("all")
 public class ApiClient {
 
 	public static final String UTF_8 = "UTF-8";

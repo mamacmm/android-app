@@ -20,6 +20,7 @@ import android.widget.TextView;
  * @version 1.0
  * @created 2012-3-21
  */
+@SuppressWarnings("all")
 public class ListViewSearchAdapter extends BaseAdapter {
 	private Context 					context;//运行上下文
 	private List<Result> 				listItems;//数据集合

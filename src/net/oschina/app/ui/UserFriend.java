@@ -30,6 +30,7 @@ import android.widget.TextView;
  * @version 1.0
  * @created 2012-3-21
  */
+@SuppressWarnings("all")
 public class UserFriend extends BaseActivity {
 
 	private ImageView mBack;
